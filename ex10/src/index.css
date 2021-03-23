@@ -22,7 +22,37 @@ nav ul li {
     list-style: none;
     padding: 0 10px;
     color:black;
+    
+}
+.nav-links{
+    text-decoration: none;
 }
 #gmail {
     margin-left: auto;
 }
+#sign_in {
+    background: #4386F7;
+    padding: 0;
+    border-radius: 3px;
+    margin-left: 12px;
+    color: white;
+}
+.google-image {
+    position: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    margin-bottom: 0;
+    padding: 0;
+}
+.form-search {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
